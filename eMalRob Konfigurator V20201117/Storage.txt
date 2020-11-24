@@ -1,0 +1,5 @@
+15872 bytes		0x00001000	bootloader_dio_40m	x	
+3072 bytes		0x00008000	partions		x
+8192 bytes		0x0000e000	boot_app0		x
+821808 bytes		0x00010000	firmware		x
+1507328 bytes		0x00290000	spiffs
