@@ -1,0 +1,3 @@
+C:\Users\JB\source\repos\eMalRob Konfigurator V20201117\eMalRob Konfigurator V20201117\Debug\eMalRob Konfigurator V20201117.vcxprojAssemblyReference.cache
+C:\Users\JB\source\repos\eMalRob Konfigurator V20201117\eMalRob Konfigurator V20201117\Debug\eMalRobKonfiguratorV20201117.MyForm.resources
+C:\Users\JB\source\repos\eMalRob Konfigurator V20201117\eMalRob Konfigurator V20201117\Debug\eMalRob Konfigurator V20201117.vcxproj.GenerateResource.cache

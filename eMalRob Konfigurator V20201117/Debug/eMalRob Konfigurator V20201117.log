@@ -1,0 +1,6 @@
+﻿  Funktionen.cpp
+  MyForm.cpp
+C:\Users\JB\source\repos\eMalRob Konfigurator V20201117\eMalRob Konfigurator V20201117\MyForm.cpp(17,33): warning C4829: Möglicherweise falsche Parameter für Main-Funktion. Verwenden Sie eventuell "int main(Platform::Array<Platform::String^>^ args)".
+  Code wird generiert...
+  Funktionen.obj : MSIL-Modulgefunden; inkrementelles Verknüpfen wird für MSIL deaktiviert; vollständiger Link wird durchgeführt
+  eMalRob Konfigurator V20201117.vcxproj -> C:\Users\JB\source\repos\eMalRob Konfigurator V20201117\Debug\eMalRob Konfigurator V20201117.exe

@@ -259,12 +259,13 @@ private: System::Void comboBox1_SelectedIndexChanged(System::Object^ sender, Sys
 private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
 	extern std::vector <int> ComPorts;
 	std::string CommandlineP1 = "START esptool.exe --chip esp32 --port COM";
-	std::string CommandlineP2 = " --baud 921600 --before default_reset --after hard_reset write_flash -z --flash_mode dio --flash_freq 40m --flash_size detect 0xe000 boot_app0.bin 0x1000 bootloader_dio_40m.bin 0x10000 firmware.bin 0x8000 partitions.bin";
+	std::string CommandlineP2 = " --baud 921600 --before default_reset --after hard_reset write_flash -z --flash_mode dio --flash_freq 40m --flash_size detect 0xe000 boot_app0.bin 0x1000 bootloader_dio_40m.bin 0x10000 firmware.bin 0x8000 partitions.bin 0x00290000 spiffs.bin";
 	
 	for (int i = 0; i < checkedListBox1->CheckedItems->Count; i++)
 	{
 		std::string final = CommandlineP1 + std::to_string(ComPorts[i]) + CommandlineP2;
 		const char* command = final.c_str();
+		system(command);
 		system(command);
 	};
 	
